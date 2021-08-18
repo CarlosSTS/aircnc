@@ -24,7 +24,7 @@ RODANDO O PROJETO MOBILE
 
 ## BACKEND
 RODANDO O PROJETO NO BACKEND
-* yarn install=> para instalar Dependências do projeto
+* yarn install => para instalar Dependências do projeto
 * yarn start =>  para inicializar o projeto
 
 ## Feito por Carlos Ferreira
