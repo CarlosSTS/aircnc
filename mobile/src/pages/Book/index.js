@@ -1,42 +1,48 @@
-import React , {useState,useEffect}from 'react';
+import React, { useState } from "react";
+import {
+  Alert,
+  SafeAreaView,
+  Text,
+  TouchableOpacity,
+  TextInput,
+} from "react-native";
+import AsyncStorage from "@react-native-async-storage/async-storage";
 
-import {AsyncStorage,Alert,SafeAreaView,Text,TouchableOpacity,TextInput}  from 'react-native';
+import api from "../../services/api";
 
-import api from '../../services/api';
+import styles from "./styles";
 
-import styles from './styles';
+export default function Book({ navigation }) {
+  const [date, setDate] = useState("");
+  const booking_spot = navigation.getParam("id");
 
-export default function Book ({navigation}) {
-    const [date, setDate] = useState('');
-    const booking_spot = navigation.getParam('id');
-  
-    async function handleSubmit() {
-        const booking_user = await AsyncStorage.getItem('user');
-    
-        await api.post(`/booking/${booking_spot}`, {
-          date,
-        },{
-          headers: {
-            authorization : booking_user
-          }
-        })
-        
-    
-        Alert.alert(`Solicitação de reserva enviada, com a data ${date}`);
-    
-        navigation.navigate('List');
+  async function handleSubmit() {
+    const booking_user = await AsyncStorage.getItem("user");
+
+    await api.post(
+      `/booking/${booking_spot}`,
+      {
+        date,
+      },
+      {
+        headers: {
+          authorization: booking_user,
+        },
       }
-    
-      function handleCancel() {
-        navigation.navigate('List');
-        Alert.alert('Solicitação de reserva cancelada.');
+    );
 
-      }
+    Alert.alert(`Solicitação de reserva enviada, com a data ${date}`);
 
-return(
-    
+    navigation.navigate("List");
+  }
+
+  function handleCancel() {
+    navigation.navigate("List");
+    Alert.alert("Solicitação de reserva cancelada.");
+  }
+
+  return (
     <SafeAreaView style={styles.container}>
-     
       <Text style={styles.label}>DATA DE INTERESSE *</Text>
       <TextInput
         style={styles.input}
@@ -52,10 +58,12 @@ return(
         <Text style={styles.buttonText}>Solicitar reserva</Text>
       </TouchableOpacity>
 
-      <TouchableOpacity  onPress={handleCancel} style={[styles.button, styles.cancelButton]}>
+      <TouchableOpacity
+        onPress={handleCancel}
+        style={[styles.button, styles.cancelButton]}
+      >
         <Text style={styles.buttonText}>Cancelar</Text>
       </TouchableOpacity>
     </SafeAreaView>
   );
 }
-   
