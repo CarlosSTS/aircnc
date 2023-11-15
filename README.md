@@ -10,9 +10,13 @@ O app contém os seguintes módulos
 * uma tela para cadastro de reservas.
 
 ## Páginas do app
-![Foto do App Login](https://github.com/CarlosSTS/Semana_OmniStack_09-/blob/master/assets/login.jpeg)
-![Foto do App Dashboard](https://github.com/CarlosSTS/Semana_OmniStack_09-/blob/master/assets/dashboard.jpg)
-![Foto do App Reserva](https://github.com/CarlosSTS/Semana_OmniStack_09-/blob/master/assets/reserva.jpg)
+<table>
+  <tr>
+<td><img src="https://github.com/CarlosSTS/Semana_OmniStack_09-/blob/master/assets/login.png" alt="Foto do App Login" width="360" /></td>
+<td><img src="https://github.com/CarlosSTS/Semana_OmniStack_09-/blob/master/assets/dashboard.png" alt="Foto do App Dashboard" width="360" /></td>
+<td><img src="https://github.com/CarlosSTS/Semana_OmniStack_09-/blob/master/assets/reserva.png" alt="Foto do App Reserva" width="360" /></td>
+</tr>
+</table>
 
 ## MOBILE
 RODANDO O PROJETO MOBILE
