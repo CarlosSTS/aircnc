@@ -12,15 +12,15 @@ O app contém os seguintes módulos
 ## Páginas do app
 <table>
   <tr>
-<td><img src="https://github.com/CarlosSTS/Semana_OmniStack_09-/blob/master/assets/login.png" alt="Foto do App Login" width="360" /></td>
-<td><img src="https://github.com/CarlosSTS/Semana_OmniStack_09-/blob/master/assets/dashboard.png" alt="Foto do App Dashboard" width="360" /></td>
-<td><img src="https://github.com/CarlosSTS/Semana_OmniStack_09-/blob/master/assets/reserva.png" alt="Foto do App Reserva" width="360" /></td>
+<td><img src="https://firebasestorage.googleapis.com/v0/b/portfolio-web-7fbff.appspot.com/o/github_projects%2Faircnc%2Flogin.png?alt=media&token=cc28cb56-0d37-4c21-ae86-35790d20d595" alt="Foto do App Login" width="360" /></td>
+<td><img src="https://firebasestorage.googleapis.com/v0/b/portfolio-web-7fbff.appspot.com/o/github_projects%2Faircnc%2Fdashboard.png?alt=media&token=7acf02e7-873f-4afa-9a26-f6c2ad5938f2" alt="Foto do App Dashboard" width="360" /></td>
+<td><img src="https://firebasestorage.googleapis.com/v0/b/portfolio-web-7fbff.appspot.com/o/github_projects%2Faircnc%2Freserva.png?alt=media&token=466ae980-0568-45a5-b07d-5eeaa96a1f92" alt="Foto do App Reserva" width="360" /></td>
 </tr>
 </table>
 
 ## MOBILE
 RODANDO O PROJETO MOBILE
-* yarn install=>  para instalar Dependências do projeto
+* yarn install=>  para instalar dependências do projeto
 * yarn start => para inicializar o projeto
 * yarn android => para executar o projeto no emulador android
 * yarn ios => Para executar no emulador iOS
@@ -28,7 +28,7 @@ RODANDO O PROJETO MOBILE
 
 ## BACKEND
 RODANDO O PROJETO NO BACKEND
-* yarn install => para instalar Dependências do projeto
+* yarn install => para instalar dependências do projeto
 * yarn start =>  para inicializar o projeto
 
 ## Feito por Carlos Ferreira
