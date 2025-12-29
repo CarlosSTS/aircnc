@@ -12,9 +12,9 @@ O app contém os seguintes módulos
 ## Páginas do app
 <table>
   <tr>
-<td><img src="https://firebasestorage.googleapis.com/v0/b/portfolio-web-7fbff.appspot.com/o/github_projects%2Faircnc%2Flogin.png?alt=media&token=cc28cb56-0d37-4c21-ae86-35790d20d595" alt="Foto do App Login" width="360" /></td>
-<td><img src="https://firebasestorage.googleapis.com/v0/b/portfolio-web-7fbff.appspot.com/o/github_projects%2Faircnc%2Fdashboard.png?alt=media&token=7acf02e7-873f-4afa-9a26-f6c2ad5938f2" alt="Foto do App Dashboard" width="360" /></td>
-<td><img src="https://firebasestorage.googleapis.com/v0/b/portfolio-web-7fbff.appspot.com/o/github_projects%2Faircnc%2Freserva.png?alt=media&token=466ae980-0568-45a5-b07d-5eeaa96a1f92" alt="Foto do App Reserva" width="360" /></td>
+<td><img src="https://res.cloudinary.com/dbw8igay3/image/upload/github_projects/aircnc/login.png" alt="Foto do App Login" width="360" /></td>
+<td><img src="https://res.cloudinary.com/dbw8igay3/image/upload/github_projects/aircnc/dashboard.png" alt="Foto do App Dashboard" width="360" /></td>
+<td><img src="https://res.cloudinary.com/dbw8igay3/image/upload/github_projects/aircnc/reserva.png" alt="Foto do App Reserva" width="360" /></td>
 </tr>
 </table>
 
@@ -33,5 +33,5 @@ RODANDO O PROJETO NO BACKEND
 
 ## Feito por Carlos Ferreira
 * [Github](https://www.github.com/CarlosSTS)
-* [Email](mailto://carlossts826@gmail.com)
+* [Email](mailto://carlossts.dev@gmail.com)
 * [LinkedIn](https://www.linkedin.com/in/carlos-ferreira-4b2ba219a/)
